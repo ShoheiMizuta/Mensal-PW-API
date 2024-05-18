@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(228,114,188,1) 0%, rgba(228,114,188,1) 19%, rgba(112,0,75,1) 84%, rgba(112,0,75,1) 100%);
+}
+h1{
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.bloco1, .bloco2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.75);
+}
+.bloco1{  
+    width: 70vh;
+    height: 16vh;
+    background-color: #e8e4f393;
+    border-radius: 4vh;
+    margin-top: 15vh;
+}
+.bloco2{     
+    margin-top: 4vh;
+    width: 70vh;
+    background-color: #e8e4f36b;
+    border-radius: 4vh;
+    height: 50vh;
+    margin-bottom: 5%;
+    border: 1px solid rgb(54, 54, 54);
+}
+button{
+    margin-right: 7vh;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: gray;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(182, 156, 156);
+    color: white;
+}
+
+.texto{
+    margin-bottom: 3.5vh;
+    max-height: 18px;
+    flex-wrap: wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.textos{
+    display: inline-flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    padding: 40px;
+    font-size: 20px;
+}
+#personagem{
+    border: solid 1px;
+    border-radius: 4px;
+}
+form{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
